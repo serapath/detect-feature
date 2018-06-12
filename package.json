@@ -1,0 +1,23 @@
+{
+  "name": "detect-feature",
+  "version": "0.0.0",
+  "description": "detects javascript environment and features",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "detect",
+    "is",
+    "feature",
+    "features",
+    "environment",
+    "window",
+    "global",
+    "has",
+    "supports",
+    "caniuse"
+  ],
+  "author": "@serapath",
+  "license": "MIT"
+}
