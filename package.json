@@ -1,7 +1,7 @@
 {
-  "name": "detect-feature",
-  "version": "0.0.0",
-  "description": "detects javascript environment and features",
+  "name": "has-feature",
+  "version": "0.1.0",
+  "description": "detect javascript environment features",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -18,6 +18,14 @@
     "supports",
     "caniuse"
   ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/serapath/has-feature.git"
+  },
   "author": "@serapath",
-  "license": "MIT"
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/serapath/has-feature/issues"
+  },
+  "homepage": "https://github.com/serapath/has-feature#readme"
 }
