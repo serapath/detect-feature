@@ -1,23 +1,39 @@
 {
-  "name": "detect-feature",
-  "version": "0.0.0",
-  "description": "detects javascript environment and features",
+  "name": "does-support",
+  "version": "0.1.0",
+  "description": "detect javascript environment features",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "budo test/browser.js --live --open --force-default-index --dir=.",
+    "test": "node test/node.js"
   },
   "keywords": [
+    "probe",
     "detect",
     "is",
+    "has",
     "feature",
     "features",
+    "env",
     "environment",
     "window",
     "global",
-    "has",
+    "self",
+    "support",
     "supports",
     "caniuse"
   ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/serapath/does-support.git"
+  },
   "author": "@serapath",
-  "license": "MIT"
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/serapath/does-support/issues"
+  },
+  "homepage": "https://github.com/serapath/does-support#readme",
+  "devDependencies": {
+    "budo": "^11.2.2"
+  }
 }
